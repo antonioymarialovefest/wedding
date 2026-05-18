@@ -256,7 +256,7 @@ h2::after {
 .btn.portada-down {
   padding: 18px 32px;
   font-size: 1.3rem;
-  background: #e14811;
+  background: #9e41ce;
   color: #FFFFFF;
   font-weight: 700;
   font-family: 'Cinzel', serif;
@@ -268,10 +268,10 @@ h2::after {
 
 .btn.portada-down:hover,
 .btn.portada-down:active {
-  background: #b04018;
+  background: #9e41ce;
   color: #FFFFFF;
   transform: translate(-50%, -20%) scale(1.12);
-  box-shadow: 0 18px 50px rgba(255, 215, 0, 0.45);
+  box-shadow: 0 18px 50px rgba(125, 77, 189, 0.45);
 }
 
 .portada-down-mobile {
@@ -305,10 +305,14 @@ h2::after {
 
   .portada-down {
     bottom: 22px;
-    transform: translate(-50%, -20%);
+    transform: translate(-50%, -135%);
     padding: 14px 24px;
+    margin-bottom: 29%;
     font-size: 1rem;
     white-space: nowrap;
+    background: #6a3c8f;
+    color: #fff;
+    animation: pulse 1.8s ease-in-out infinite;
   }
 }
 
