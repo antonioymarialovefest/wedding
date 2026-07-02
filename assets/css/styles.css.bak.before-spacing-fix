@@ -115,7 +115,7 @@ section.section-card::before {
 
 h2 {
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 18px;
   letter-spacing: .2px;
   color: #e14811;
   font-size: clamp(2.8rem, 5vw, 4rem);
@@ -123,17 +123,9 @@ h2 {
   text-shadow: 0 2px 8px rgba(225, 72, 17, 0.12);
 }
 
-section.section-card > h2 + * {
-  margin-top: 0 !important;
-  padding-top: 0 !important;
-}
-
-section.section-card > h2 + .card,
-section.section-card > h2 + .notice,
-section.section-card > h2 + .gallery,
-section.section-card > h2 + .timeline,
-section.section-card > h2 + .location-item {
-  margin-top: 0 !important;
+section.section-card h2 + * {
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .watercolor-heart {
