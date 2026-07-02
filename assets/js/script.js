@@ -12,7 +12,7 @@ document.addEventListener("dragstart", e => {
   }
 });
 
-const target = new Date("2026-10-09T12:00:00");
+const target = new Date("2026-10-09T18:00:00");
 setInterval(() => {
   const diff = target - new Date();
   if (diff < 0) return;
